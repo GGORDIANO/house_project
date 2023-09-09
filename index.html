@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crud application</title>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+
+</head>
+<body class="container"> <!-- give the body a container class from bootstrap-->
+<div id="new-house" class="jumbotron"> <!--create a div for the form, and we give it an ID so we can refere to it in our code-->
+<h2>New House</h2>
+<input type="text" id="new-house-name" class="form-control"> <br>
+<button id="create-new-house" class="btn btn-primary form-control">Create</button>
+</div>
+
+
+<div id="app"><!-- where all the houses created will go that we read using Ajax from our API-->
+
+
+</div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="index.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
+
